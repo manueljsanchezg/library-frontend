@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Sora:wght@100..800&display=swap');
+
+.author-card {
+    border-radius: 12px;
+    border: 1px solid black;
+    margin: 10px;
+    gap: 10px;
+    padding: 10px;
+    width: 330px;
+    height: 220px;
+}
+
+.author-name {
+    font-family: Moderustic;
+    font-size: 26px;
+}
+
+.author-info {
+    font-family: Moderustic;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.author-card-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    outline: none;
+}
+
+
+
+.author-card-delete-button,
+.author-card-edit-button {
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}

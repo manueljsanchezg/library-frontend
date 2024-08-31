@@ -1,0 +1,40 @@
+.authors-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.author-page-welcome {
+    margin-left: 5px;
+}
+
+.add-author-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.add-author-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 1200px) {
+    .author-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .author-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .author-list {
+        grid-template-columns: 1fr;
+    }
+}

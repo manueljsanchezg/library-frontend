@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Sora:wght@100..800&display=swap');
+
+.edit-author-page-form {
+    border: 1px solid black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    height: 320px;
+    width: 500px;
+    padding: 20px;
+    font-family: Moderustic;
+}
+
+.edit-author-page-welcome {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+    align-self: flex-start;
+}
+
+.edit-author-page-name,
+.edit-author-page-birth {
+    width: 100%; 
+    margin-bottom: 15px;
+}
+
+.edit-author-page-form label {
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 500;
+}
+
+.edit-author-page-form input[type="text"],
+.edit-author-page-form input[type="date"] {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+
+.edit-author-page-form button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+}
+
+.edit-author-page-form button:hover {
+    background-color: #45a049;
+}

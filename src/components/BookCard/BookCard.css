@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Sora:wght@100..800&display=swap');
+
+.book-card {
+    border-radius: 12px;
+    border: 1px solid black;
+    margin: 10px;
+    gap: 10px;
+    padding: 10px;
+    width: 330px;
+    height: 220px;
+}
+
+.book-title {
+    font-family: Moderustic;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.book-info {
+    font-family: Moderustic;
+    
+}
+
+.book-card-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    outline: none;
+}
+
+.book-card-edit-button {
+    outline: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.book-card-delete-button {
+    outline: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
