@@ -38,7 +38,7 @@ const BooksPage = () => {
             }
             </div>
             <div className="add-book-container">
-                <Link to="/add-book">
+                <Link to="/books/add">
                     <button className="add-book-button">
                         <BiBookAdd   size={40} />
                     </button>

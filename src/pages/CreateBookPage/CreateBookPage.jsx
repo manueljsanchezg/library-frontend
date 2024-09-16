@@ -24,7 +24,7 @@ const BookForm = () => {
   const onSubmit = async (data) => {
     try {
       await addBook(data)
-      navigate('/')
+      navigate('/books')
     } catch (error) {
       console.error('Error creating book:', error)
     }

@@ -38,7 +38,7 @@ const AuthorsPage = () => {
             }
             </div>
             <div className="add-author-container">
-                <Link to="/add-author">
+                <Link to="/authors/add">
                     <button className="add-author-button">
                         <MdPostAdd  size={40} />
                     </button>

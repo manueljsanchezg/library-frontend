@@ -15,7 +15,9 @@ const AuthorCard = ({ author, onDelete }) => {
         }
     }
 
-    const formattedDate = new Date(author.birthDate).toLocaleDateString()
+    const formattedDate = author.birthDate 
+                            ? new Date(author.birthDate).toLocaleDateString()
+                            : ''
 
     return (
         <div className="author-card">
@@ -24,7 +26,7 @@ const AuthorCard = ({ author, onDelete }) => {
                 <p className="author-birth">birth: {formattedDate}</p>
             </div>
             <div className='author-card-buttons'>
-                <Link to={`/edit-author/${author.id}`}>
+                <Link to={`/authors/edit/${author.id}`}>
                     <button className='author-card-edit-button'>
                         <MdEdit size={40} />
                     </button>

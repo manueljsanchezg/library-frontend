@@ -15,12 +15,12 @@ function App() {
       <div className='App'>
         <Header />
         <Routes>
-          <Route path='/' element={<BooksPage />} />
-          <Route path='/add-book' element={<CreateBookPage />} />
-          <Route path='/edit-book/:id' element={<EditBookPage />} />
+          <Route path='/books' element={<BooksPage />} />
+          <Route path='/books/add' element={<CreateBookPage />} />
+          <Route path='/books/edit/:id' element={<EditBookPage />} />
           <Route path='/authors' element={<AuthorsPage />} />
-          <Route path='/add-author' element={<CreateAuthorsPage />} />
-          <Route path='/edit-author/:id' element={<EditAuthorPage />} />
+          <Route path='/authors/add' element={<CreateAuthorsPage />} />
+          <Route path='/authors/edit/:id' element={<EditAuthorPage />} />
         </Routes>
       </div>
     </Router>

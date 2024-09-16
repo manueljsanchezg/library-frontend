@@ -42,7 +42,7 @@ const EditBookPage = () => {
   const onSubmit = async (data) => {
     try {
       await updateBook(id, data)
-      navigate('/')
+      navigate('/books')
     } catch (error) {
       console.error('Error updating book:', error)
     }

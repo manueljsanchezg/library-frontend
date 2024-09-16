@@ -24,7 +24,7 @@ const BookCard = ({ book, onDelete }) => {
                 <p className="book-autor">Author: {book.author_name}</p>
             </div>
             <div className='book-card-buttons'>
-                <Link to={`/edit-book/${book.id}`}>
+                <Link to={`/books/edit/${book.id}`}>
                     <button className='book-card-edit-button'>
                         <MdEdit size={40} />
                     </button>

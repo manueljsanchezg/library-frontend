@@ -10,7 +10,7 @@ const Header = () => {
                     <IoLibrary size={60}/>
                     <h1>Library Manager</h1>
                 </div>
-                <Link to="/" className="link">Books</Link>
+                <Link to="/books" className="link">Books</Link>
                 <Link to="/authors" className="link">Authors</Link>
             </nav>
         </div>

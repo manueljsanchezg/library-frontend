@@ -24,7 +24,11 @@ const EditAuthorPage = () => {
       try {
         const fetchedAuthor = await fetchAuthorById(id)
         setAuthor(fetchedAuthor)
-        const formattedDate = fetchedAuthor.birthDate.split('T')[0]
+        
+        const formattedDate = fetchedAuthor.birthDate 
+        ? fetchedAuthor.birthDate.split('T')[0]
+        : ''
+
         setValue('name', fetchedAuthor.name)
         setValue('birthDate', formattedDate)
       } catch (error) {
